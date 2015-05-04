@@ -1,0 +1,40 @@
+.btn-branded {
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 35px;
+  padding: 15px;
+  text-transform: uppercase;
+  transition: background .5s ease;
+}
+
+.btn-dark {
+  background: transparent;
+  border: solid $primary-color 1px;
+  color: $primary-color;
+}
+
+.btn-light {
+  background: transparent;
+  border: solid #fff 1px;
+  border-color: #fff;
+  color: #fff;
+  
+  &:hover {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    transition: background .5s ease;
+  }
+}
+
+.btn-reg {
+  background: transparent;
+  border: solid $primary-color 1px;
+  border-color: $primary-color;
+  color: $primary-color;
+  
+  &:hover {
+    background-color: $primary-color;
+    transition: background .5s ease;
+    color: #fff;
+  }
+}

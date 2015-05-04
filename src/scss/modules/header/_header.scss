@@ -1,0 +1,94 @@
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 450px;
+  position: relative;
+  width: 100%;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+    @media screen and (max-width: 600px) { 
+      font-size: 30px;
+    }
+  }
+
+  h2 {
+    font-weight: 200;
+    font-size: 18px;
+    width: 500px;
+
+    @media screen and (max-width: 600px) { 
+      font-size: 14px;
+      width: 100%;
+    }
+  }
+  
+  date {
+    display: block;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 10px;
+  }
+
+  p {
+    margin-top: 10px;
+  }
+
+  img {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    width: 160px;
+
+    @media screen and (max-width: 600px) { 
+      top: 30px;
+      right: auto;
+      bottom: auto;
+      left: 50px;
+      width: 130px;
+    }
+  }
+
+  .black-filter {
+    background: linear-gradient(to right, rgba(0, 0, 0, .57) 0%,rgba(0, 0, 0, 0) 94%); // W3C 
+    height: 100%;
+    position: relative;
+    width: 100%;
+  }
+
+  .content {
+    bottom: 30px;
+    left: 30px;
+    padding: 20px;
+    position: absolute;
+  }
+}
+
+.home-header {
+  background-image: url('../assets/headers/marathon_header.jpg');
+  background-position: 50% 56%;
+}
+
+.events-header {
+  background-image: url('../assets/headers/events-header.jpg');
+  background-position: 50% 56%;
+}
+
+.about-header {
+  background-image: url('../assets/headers/robin-pic.jpg');
+  background-position: 50% 56%;
+}
+
+.snowshoe-woods-header {
+  background-image: url('../assets/headers/snowshoe-event.jpg');
+  background-position: 50% 56%;
+}
+
+.castle-header {
+  background-image: url('../assets/headers/castle-pic.jpg');
+  background-position: 50% 56%;
+}
