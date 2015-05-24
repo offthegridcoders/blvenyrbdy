@@ -302,7 +302,8 @@ footer {
         width: 100%; } }
     .events-list-article li img {
       margin: 20px 0;
-      max-height: 70px; }
+      max-height: 70px;
+      max-width: 100%; }
 
 .sponsors-list {
   padding: 20px 100px;
